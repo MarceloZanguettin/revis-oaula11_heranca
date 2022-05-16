@@ -29,10 +29,10 @@ public class Empregado extends Pessoa {
         this.imposto = imposto;
     }
 
-    public void calcularSalario(){
+    public double calcularSalario(){
 
         double salarioLiquido;
-        salarioLiquido=salarioBase-(imposto/100)*salarioBase;
+        return salarioLiquido=salarioBase-(imposto/100)*salarioBase;
     
     }
     
