@@ -21,5 +21,16 @@ public class Pessoa{
     }
     public void setTelefone(String telefone) {
         this.telefone = telefone;
+    }
+    public Pessoa(String nome) {
+        this.nome = nome;
+    }
+    public Pessoa(String nome, String telefone) {
+        this.nome = nome;
+        this.telefone = telefone;
     } 
+
+    public Pessoa(){
+        
+    }
 }
