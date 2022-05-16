@@ -22,7 +22,7 @@ public class Operario extends Empregado {
     public double calcularSalario(double comissao){
 
         double salarioLiquido = calcularSalario()+valorProducao*comissao;
-        return salarioLiquido
+        return salarioLiquido;
 
     }
     
